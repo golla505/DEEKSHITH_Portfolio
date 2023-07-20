@@ -35,7 +35,7 @@ body {
 
 .bannerBgImage {
     height: 100vh;
-    background: url("/Images/bannerImage.jpg");
+    background: url(./Images/bannerImage.jpg);
     background-size: cover;
     position: relative;
 }
@@ -59,7 +59,7 @@ body {
 
 .card {
     cursor: pointer;
-    background-color: rgb(155, 218, 213);
+    background-color: teal;
 }
 
 .card:hover {
