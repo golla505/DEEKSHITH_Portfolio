@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme:opsz,wght@8..144,100;8..144,200&display=swap');
+
+* {
+    font-family: 'Pathway Extreme', sans-serif;
+}
+
+@keyframes bgcolor {
+    0% {
+        background-color: #78bef1
+    }
+
+    30% {
+        background-color: #2179b4
+    }
+
+    60% {
+        background-color: #657b8d
+    }
+
+    90% {
+        background-color: #0fbbb2
+    }
+
+    100% {
+        background-color: #26766c
+    }
+}
+
+body {
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+.bannerBgImage {
+    height: 100vh;
+    background: url("/Images/bannerImage.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.bannerText {
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.bannerTitle {
+    font-size: 4rem;
+}
+
+.bannerDesc {
+    font-size: 2rem;
+}
+
+.card {
+    cursor: pointer;
+    background-color: rgb(155, 218, 213);
+}
+
+.card:hover {
+    background-color: beige;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 3px 3px rgb(43, 41, 41);
+    transition-duration: 500ms;
+    border-radius: 5px;
+}
+
+.bIcon {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.img-fluid:hover {
+    border: 2px solid yellowgreen;
+}
+
+.card-img-top {
+    height: 50vh;
+}
